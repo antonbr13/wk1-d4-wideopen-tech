@@ -1,0 +1,153 @@
+/*PAGE STYLES ---------*/
+html {
+   box-sizing: border-box;
+}
+
+*, *:before, *:after {
+   box-sizing: inherit;
+}
+
+body {
+}
+
+
+/*BANNER ---------*/
+
+.banner {
+   background: url('/pics/banner.jpg') center no-repeat;
+   background-size: cover;
+   width: 100%;
+   height: 585px;
+   text-align: center;
+   margin-top: -18px;
+}
+
+.banner-nav {
+   display: flex;
+   justify-content: space-between;
+}
+
+.banner-logo {
+   width: 180px;
+   margin: 15px 0 0 15px;
+}
+
+.banner-menu {
+   width: 30px;
+   margin: 25px 5vw 0 0;
+}
+
+/*.banner-middle {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+}*/
+
+
+#title{
+   font-size: 64px;
+   padding: 0;
+   color: white;
+   font-family: 'Lato'
+   /
+}
+
+#solutions {
+   color: #FD803B;
+}
+
+#ideas {
+   color: #C2D84A;
+}
+
+.banner-text {
+   color: white;
+   font-family: 'Lato';
+   padding-top: 150px;
+   padding-bottom: 0;
+   width: 100%;
+   line-height: 0;
+}
+
+.tag-line {
+   color: #fff;
+}
+
+.banner-button {
+   background: #c8e138;
+   color: #fff;
+   width: 80%;
+   margin: 80px auto;
+   border-radius: 5px;
+   padding: 10px 0;
+   font-family: 'Lato';
+}
+
+/*COMPANY DESCRIPTION (#F0F0F0) ---------*/
+
+.greybox {
+   background: #Fff;
+   width:90%;
+   height: 460px
+   padding: 20px 0;
+   text-align: center;
+   margin: 0 auto;
+}
+
+.grey-text {
+   width: 80%;
+   margin: 0 auto;
+   fon
+}
+
+.greybox p {
+   font: 24px 'Open Sans';
+   padding: 20px 0;
+
+}
+
+.pencil {
+}
+
+.greybox .here, .helpbox .here {
+   color:#40666D;
+   font: 42px 'Oswald';
+
+}
+
+.here strong {
+   color: #c8e138;
+}
+
+/*HELP BOX (#F0F0F0) ---------*/
+
+.helpbox {
+   background: #Fff;
+   width:90%;
+   height: 460px
+   padding: 20px 0;
+   text-align: center;
+   margin:0 auto;
+}
+
+
+
+
+/*MEDIA QUERIES ---------*/
+@media (min-width: 580px) {
+   
+}
+
+@media (min-width: 1000px) {
+   .banner-menu {
+      visibility: hidden;
+   }
+/*
+- Nav bar expands
+- Here's How It Works becoems three columns
+- How Can We Help becomes two columns
+- Companies We Work With becoems three columns
+- Locations are moved to side by side rather than stacked
+*/
+
+}
